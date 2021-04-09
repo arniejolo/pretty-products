@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Karma', serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,3 +10,19 @@ html {
 
 /* font-family: 'Karma', serif;
 font-family: 'Oswald', sans-serif; */
+
+main {
+  margin: 0;
+}
+
+
+
+
+
+
+
+ol li h2 {
+  color: #6f00e7;
+  font-weight: bold;
+  text-decoration: none;
+}
