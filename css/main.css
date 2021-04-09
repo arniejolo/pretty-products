@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karma', serif;
+  font-family: "Karma", serif;
   line-height: 1.5;
 }
 
@@ -74,7 +74,7 @@ ol ul {
 .button {
   text-decoration: none;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: bold;
   background-color: #6f00e7;
   border-radius: 3em;
