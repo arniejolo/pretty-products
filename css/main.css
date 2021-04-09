@@ -11,18 +11,29 @@ html {
 /* font-family: 'Karma', serif;
 font-family: 'Oswald', sans-serif; */
 
-main {
+body {
   margin: 0;
 }
 
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
 
-
-
-
-
-ol li h2 {
+h2 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
   color: #6f00e7;
-  font-weight: bold;
-  text-decoration: none;
+  font-size: 2rem;
+}
+
+p {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 1.4rem;
 }
