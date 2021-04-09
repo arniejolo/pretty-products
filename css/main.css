@@ -50,4 +50,17 @@ ol > li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+}
+
+h2 + img {
+  order: -1;
+  max-width: 15em;
+  margin-bottom: 1.5rem;
+}
+
+ul > li {
+  list-style-type: none;
+
+  display: flex;
 }
